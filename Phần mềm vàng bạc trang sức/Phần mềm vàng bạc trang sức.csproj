@@ -46,6 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BUS%28interact file%29\Add_Customer.cs" />
+    <Compile Include="DAO%28database callback\Customer_list.cs" />
+    <Compile Include="DTO%28build object class%29\Customer.cs" />
     <Compile Include="GUI%28design file%29\Bill.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -124,10 +127,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="BUS%28interact file%29\" />
-    <Folder Include="DAO%28database callback\" />
-    <Folder Include="DTO%28build object class%29\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
