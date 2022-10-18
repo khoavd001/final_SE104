@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Phần_mềm_vàng_bạc_trang_sức.GUI_design_file_;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,7 @@ namespace Phần_mềm_vàng_bạc_trang_sức
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Navigation());
         }
     }
 }
