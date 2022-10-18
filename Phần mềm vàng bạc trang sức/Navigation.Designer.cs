@@ -29,15 +29,15 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Navigation));
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges10 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges11 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges12 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges13 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges14 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges15 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges16 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges17 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges18 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges3 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges4 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges5 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges6 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges7 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges8 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges9 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             this.panel1 = new System.Windows.Forms.Panel();
             this.bntLogout = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.bntSetting = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
@@ -52,21 +52,21 @@
             this.picLogo = new System.Windows.Forms.PictureBox();
             this.picNotìication = new System.Windows.Forms.PictureBox();
             this.aeon = new Bunifu.UI.WinForms.BunifuLabel();
-            this.bunifuLabel1 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.labelProducer = new Bunifu.UI.WinForms.BunifuLabel();
             this.tbProducer = new System.Windows.Forms.TextBox();
             this.tbRepotID = new Bunifu.UI.WinForms.BunifuLabel();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.bunifuLabel2 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.Date = new Bunifu.UI.WinForms.BunifuLabel();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.bunifuShapes1 = new Bunifu.UI.WinForms.BunifuShapes();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.redNotica = new Bunifu.UI.WinForms.BunifuShapes();
+            this.picUsername = new System.Windows.Forms.PictureBox();
+            this.picSearch = new System.Windows.Forms.PictureBox();
             this.tbUsername = new Bunifu.UI.WinForms.BunifuLabel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picNotìication)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picUsername)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picSearch)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -109,11 +109,11 @@
             this.bntLogout.ColorContrastOnClick = 45;
             this.bntLogout.ColorContrastOnHover = 45;
             this.bntLogout.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges10.BottomLeft = true;
-            borderEdges10.BottomRight = true;
-            borderEdges10.TopLeft = true;
-            borderEdges10.TopRight = true;
-            this.bntLogout.CustomizableEdges = borderEdges10;
+            borderEdges1.BottomLeft = true;
+            borderEdges1.BottomRight = true;
+            borderEdges1.TopLeft = true;
+            borderEdges1.TopRight = true;
+            this.bntLogout.CustomizableEdges = borderEdges1;
             this.bntLogout.DialogResult = System.Windows.Forms.DialogResult.None;
             this.bntLogout.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bntLogout.DisabledFillColor = System.Drawing.Color.Empty;
@@ -203,11 +203,11 @@
             this.bntSetting.ColorContrastOnClick = 45;
             this.bntSetting.ColorContrastOnHover = 45;
             this.bntSetting.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges11.BottomLeft = true;
-            borderEdges11.BottomRight = true;
-            borderEdges11.TopLeft = true;
-            borderEdges11.TopRight = true;
-            this.bntSetting.CustomizableEdges = borderEdges11;
+            borderEdges2.BottomLeft = true;
+            borderEdges2.BottomRight = true;
+            borderEdges2.TopLeft = true;
+            borderEdges2.TopRight = true;
+            this.bntSetting.CustomizableEdges = borderEdges2;
             this.bntSetting.DialogResult = System.Windows.Forms.DialogResult.None;
             this.bntSetting.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bntSetting.DisabledFillColor = System.Drawing.Color.Empty;
@@ -297,11 +297,11 @@
             this.bntCustomer.ColorContrastOnClick = 45;
             this.bntCustomer.ColorContrastOnHover = 45;
             this.bntCustomer.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges12.BottomLeft = true;
-            borderEdges12.BottomRight = true;
-            borderEdges12.TopLeft = true;
-            borderEdges12.TopRight = true;
-            this.bntCustomer.CustomizableEdges = borderEdges12;
+            borderEdges3.BottomLeft = true;
+            borderEdges3.BottomRight = true;
+            borderEdges3.TopLeft = true;
+            borderEdges3.TopRight = true;
+            this.bntCustomer.CustomizableEdges = borderEdges3;
             this.bntCustomer.DialogResult = System.Windows.Forms.DialogResult.None;
             this.bntCustomer.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bntCustomer.DisabledFillColor = System.Drawing.Color.Empty;
@@ -391,11 +391,11 @@
             this.bntStaff.ColorContrastOnClick = 45;
             this.bntStaff.ColorContrastOnHover = 45;
             this.bntStaff.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges13.BottomLeft = true;
-            borderEdges13.BottomRight = true;
-            borderEdges13.TopLeft = true;
-            borderEdges13.TopRight = true;
-            this.bntStaff.CustomizableEdges = borderEdges13;
+            borderEdges4.BottomLeft = true;
+            borderEdges4.BottomRight = true;
+            borderEdges4.TopLeft = true;
+            borderEdges4.TopRight = true;
+            this.bntStaff.CustomizableEdges = borderEdges4;
             this.bntStaff.DialogResult = System.Windows.Forms.DialogResult.None;
             this.bntStaff.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bntStaff.DisabledFillColor = System.Drawing.Color.Empty;
@@ -485,11 +485,11 @@
             this.bntBill.ColorContrastOnClick = 45;
             this.bntBill.ColorContrastOnHover = 45;
             this.bntBill.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges14.BottomLeft = true;
-            borderEdges14.BottomRight = true;
-            borderEdges14.TopLeft = true;
-            borderEdges14.TopRight = true;
-            this.bntBill.CustomizableEdges = borderEdges14;
+            borderEdges5.BottomLeft = true;
+            borderEdges5.BottomRight = true;
+            borderEdges5.TopLeft = true;
+            borderEdges5.TopRight = true;
+            this.bntBill.CustomizableEdges = borderEdges5;
             this.bntBill.DialogResult = System.Windows.Forms.DialogResult.None;
             this.bntBill.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bntBill.DisabledFillColor = System.Drawing.Color.Empty;
@@ -579,11 +579,11 @@
             this.bntProduct.ColorContrastOnClick = 45;
             this.bntProduct.ColorContrastOnHover = 45;
             this.bntProduct.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges15.BottomLeft = true;
-            borderEdges15.BottomRight = true;
-            borderEdges15.TopLeft = true;
-            borderEdges15.TopRight = true;
-            this.bntProduct.CustomizableEdges = borderEdges15;
+            borderEdges6.BottomLeft = true;
+            borderEdges6.BottomRight = true;
+            borderEdges6.TopLeft = true;
+            borderEdges6.TopRight = true;
+            this.bntProduct.CustomizableEdges = borderEdges6;
             this.bntProduct.DialogResult = System.Windows.Forms.DialogResult.None;
             this.bntProduct.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bntProduct.DisabledFillColor = System.Drawing.Color.Empty;
@@ -670,11 +670,11 @@
             this.bntContactus.ColorContrastOnClick = 45;
             this.bntContactus.ColorContrastOnHover = 45;
             this.bntContactus.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges16.BottomLeft = true;
-            borderEdges16.BottomRight = true;
-            borderEdges16.TopLeft = true;
-            borderEdges16.TopRight = true;
-            this.bntContactus.CustomizableEdges = borderEdges16;
+            borderEdges7.BottomLeft = true;
+            borderEdges7.BottomRight = true;
+            borderEdges7.TopLeft = true;
+            borderEdges7.TopRight = true;
+            this.bntContactus.CustomizableEdges = borderEdges7;
             this.bntContactus.DialogResult = System.Windows.Forms.DialogResult.None;
             this.bntContactus.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bntContactus.DisabledFillColor = System.Drawing.Color.Empty;
@@ -765,11 +765,11 @@
             this.bntOverview.ColorContrastOnClick = 45;
             this.bntOverview.ColorContrastOnHover = 45;
             this.bntOverview.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges17.BottomLeft = true;
-            borderEdges17.BottomRight = true;
-            borderEdges17.TopLeft = true;
-            borderEdges17.TopRight = true;
-            this.bntOverview.CustomizableEdges = borderEdges17;
+            borderEdges8.BottomLeft = true;
+            borderEdges8.BottomRight = true;
+            borderEdges8.TopLeft = true;
+            borderEdges8.TopRight = true;
+            this.bntOverview.CustomizableEdges = borderEdges8;
             this.bntOverview.DialogResult = System.Windows.Forms.DialogResult.None;
             this.bntOverview.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bntOverview.DisabledFillColor = System.Drawing.Color.Empty;
@@ -856,11 +856,11 @@
             this.bntHelpCenter.ColorContrastOnClick = 45;
             this.bntHelpCenter.ColorContrastOnHover = 45;
             this.bntHelpCenter.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges18.BottomLeft = true;
-            borderEdges18.BottomRight = true;
-            borderEdges18.TopLeft = true;
-            borderEdges18.TopRight = true;
-            this.bntHelpCenter.CustomizableEdges = borderEdges18;
+            borderEdges9.BottomLeft = true;
+            borderEdges9.BottomRight = true;
+            borderEdges9.TopLeft = true;
+            borderEdges9.TopRight = true;
+            this.bntHelpCenter.CustomizableEdges = borderEdges9;
             this.bntHelpCenter.DialogResult = System.Windows.Forms.DialogResult.None;
             this.bntHelpCenter.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bntHelpCenter.DisabledFillColor = System.Drawing.Color.Empty;
@@ -988,22 +988,22 @@
             this.aeon.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             this.aeon.Click += new System.EventHandler(this.bunifuLabel1_Click_2);
             // 
-            // bunifuLabel1
+            // labelProducer
             // 
-            this.bunifuLabel1.AllowParentOverrides = false;
-            this.bunifuLabel1.AutoEllipsis = false;
-            this.bunifuLabel1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel1.CursorType = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.bunifuLabel1.ForeColor = System.Drawing.Color.DimGray;
-            this.bunifuLabel1.Location = new System.Drawing.Point(230, 68);
-            this.bunifuLabel1.Name = "bunifuLabel1";
-            this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel1.Size = new System.Drawing.Size(78, 20);
-            this.bunifuLabel1.TabIndex = 5;
-            this.bunifuLabel1.Text = "PRODUCER:";
-            this.bunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel1.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.labelProducer.AllowParentOverrides = false;
+            this.labelProducer.AutoEllipsis = false;
+            this.labelProducer.Cursor = System.Windows.Forms.Cursors.Default;
+            this.labelProducer.CursorType = System.Windows.Forms.Cursors.Default;
+            this.labelProducer.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.labelProducer.ForeColor = System.Drawing.Color.DimGray;
+            this.labelProducer.Location = new System.Drawing.Point(230, 68);
+            this.labelProducer.Name = "labelProducer";
+            this.labelProducer.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.labelProducer.Size = new System.Drawing.Size(78, 20);
+            this.labelProducer.TabIndex = 5;
+            this.labelProducer.Text = "PRODUCER:";
+            this.labelProducer.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.labelProducer.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
             // tbProducer
             // 
@@ -1047,21 +1047,21 @@
             this.textBox1.Size = new System.Drawing.Size(127, 22);
             this.textBox1.TabIndex = 21;
             // 
-            // bunifuLabel2
+            // Date
             // 
-            this.bunifuLabel2.AllowParentOverrides = false;
-            this.bunifuLabel2.AutoEllipsis = false;
-            this.bunifuLabel2.CursorType = null;
-            this.bunifuLabel2.Font = new System.Drawing.Font("Segoe UI", 10.2F);
-            this.bunifuLabel2.ForeColor = System.Drawing.Color.Black;
-            this.bunifuLabel2.Location = new System.Drawing.Point(500, 38);
-            this.bunifuLabel2.Name = "bunifuLabel2";
-            this.bunifuLabel2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel2.Size = new System.Drawing.Size(45, 23);
-            this.bunifuLabel2.TabIndex = 22;
-            this.bunifuLabel2.Text = "DATE:";
-            this.bunifuLabel2.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel2.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.Date.AllowParentOverrides = false;
+            this.Date.AutoEllipsis = false;
+            this.Date.CursorType = null;
+            this.Date.Font = new System.Drawing.Font("Segoe UI", 10.2F);
+            this.Date.ForeColor = System.Drawing.Color.Black;
+            this.Date.Location = new System.Drawing.Point(500, 38);
+            this.Date.Name = "Date";
+            this.Date.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.Date.Size = new System.Drawing.Size(45, 23);
+            this.Date.TabIndex = 22;
+            this.Date.Text = "DATE:";
+            this.Date.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.Date.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
             // textBox2
             // 
@@ -1075,41 +1075,41 @@
             this.textBox2.Size = new System.Drawing.Size(133, 22);
             this.textBox2.TabIndex = 23;
             // 
-            // bunifuShapes1
+            // redNotica
             // 
-            this.bunifuShapes1.Angle = 0F;
-            this.bunifuShapes1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuShapes1.BorderColor = System.Drawing.Color.Red;
-            this.bunifuShapes1.BorderThickness = 2;
-            this.bunifuShapes1.FillColor = System.Drawing.Color.Red;
-            this.bunifuShapes1.FillShape = true;
-            this.bunifuShapes1.Location = new System.Drawing.Point(820, 37);
-            this.bunifuShapes1.Name = "bunifuShapes1";
-            this.bunifuShapes1.Shape = Bunifu.UI.WinForms.BunifuShapes.Shapes.Circle;
-            this.bunifuShapes1.Sides = 3;
-            this.bunifuShapes1.Size = new System.Drawing.Size(14, 14);
-            this.bunifuShapes1.TabIndex = 25;
-            this.bunifuShapes1.Text = "bunifuShapes1";
+            this.redNotica.Angle = 0F;
+            this.redNotica.BackColor = System.Drawing.Color.Transparent;
+            this.redNotica.BorderColor = System.Drawing.Color.Red;
+            this.redNotica.BorderThickness = 2;
+            this.redNotica.FillColor = System.Drawing.Color.Red;
+            this.redNotica.FillShape = true;
+            this.redNotica.Location = new System.Drawing.Point(820, 37);
+            this.redNotica.Name = "redNotica";
+            this.redNotica.Shape = Bunifu.UI.WinForms.BunifuShapes.Shapes.Circle;
+            this.redNotica.Sides = 3;
+            this.redNotica.Size = new System.Drawing.Size(14, 14);
+            this.redNotica.TabIndex = 25;
+            this.redNotica.Text = "bunifuShapes1";
             // 
-            // pictureBox1
+            // picUsername
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(858, 37);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(46, 36);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 26;
-            this.pictureBox1.TabStop = false;
+            this.picUsername.Image = ((System.Drawing.Image)(resources.GetObject("picUsername.Image")));
+            this.picUsername.Location = new System.Drawing.Point(858, 37);
+            this.picUsername.Name = "picUsername";
+            this.picUsername.Size = new System.Drawing.Size(46, 36);
+            this.picUsername.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picUsername.TabIndex = 26;
+            this.picUsername.TabStop = false;
             // 
-            // pictureBox2
+            // picSearch
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(748, 37);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(27, 37);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 27;
-            this.pictureBox2.TabStop = false;
+            this.picSearch.Image = ((System.Drawing.Image)(resources.GetObject("picSearch.Image")));
+            this.picSearch.Location = new System.Drawing.Point(748, 37);
+            this.picSearch.Name = "picSearch";
+            this.picSearch.Size = new System.Drawing.Size(27, 37);
+            this.picSearch.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picSearch.TabIndex = 27;
+            this.picSearch.TabStop = false;
             // 
             // tbUsername
             // 
@@ -1137,15 +1137,15 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1048, 720);
             this.Controls.Add(this.tbUsername);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.bunifuShapes1);
+            this.Controls.Add(this.picSearch);
+            this.Controls.Add(this.picUsername);
+            this.Controls.Add(this.redNotica);
             this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.bunifuLabel2);
+            this.Controls.Add(this.Date);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.tbRepotID);
             this.Controls.Add(this.tbProducer);
-            this.Controls.Add(this.bunifuLabel1);
+            this.Controls.Add(this.labelProducer);
             this.Controls.Add(this.aeon);
             this.Controls.Add(this.picNotìication);
             this.Controls.Add(this.panel1);
@@ -1158,8 +1158,8 @@
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picNotìication)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picUsername)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picSearch)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1181,15 +1181,15 @@
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton bntBill;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton bntProduct;
         private Bunifu.UI.WinForms.BunifuLabel aeon;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel1;
+        private Bunifu.UI.WinForms.BunifuLabel labelProducer;
         private System.Windows.Forms.TextBox tbProducer;
         private Bunifu.UI.WinForms.BunifuLabel tbRepotID;
         private System.Windows.Forms.TextBox textBox1;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel2;
+        private Bunifu.UI.WinForms.BunifuLabel Date;
         private System.Windows.Forms.TextBox textBox2;
-        private Bunifu.UI.WinForms.BunifuShapes bunifuShapes1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private Bunifu.UI.WinForms.BunifuShapes redNotica;
+        private System.Windows.Forms.PictureBox picUsername;
+        private System.Windows.Forms.PictureBox picSearch;
         private Bunifu.UI.WinForms.BunifuLabel tbUsername;
     }
 }
