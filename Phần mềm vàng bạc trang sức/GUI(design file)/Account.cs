@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace Phần_mềm_vàng_bạc_trang_sức.GUI_design_file_
 {
-    public partial class Dashboard : Form
+    public partial class Account : Form
     {
-        public Dashboard()
+        public Account()
         {
             InitializeComponent();
         }
 
-        private void bunifuButton21_Click(object sender, EventArgs e)
+        private void Account_Load(object sender, EventArgs e)
         {
 
         }

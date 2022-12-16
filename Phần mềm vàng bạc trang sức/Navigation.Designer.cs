@@ -38,7 +38,12 @@
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges7 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges8 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges9 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            this.panel1 = new System.Windows.Forms.Panel();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties3 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties4 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            this.panelslide = new System.Windows.Forms.Panel();
+            this.picLogo = new System.Windows.Forms.PictureBox();
             this.bntLogout = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.bntSetting = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.bntCustomer = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
@@ -49,46 +54,59 @@
             this.bntOverview = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.bntHelpCenter = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.bunifuSeparator1 = new Bunifu.UI.WinForms.BunifuSeparator();
-            this.picLogo = new System.Windows.Forms.PictureBox();
-            this.picNotìication = new System.Windows.Forms.PictureBox();
+            this.picNotication = new System.Windows.Forms.PictureBox();
             this.aeon = new Bunifu.UI.WinForms.BunifuLabel();
-            this.labelProducer = new Bunifu.UI.WinForms.BunifuLabel();
             this.tbProducer = new System.Windows.Forms.TextBox();
-            this.tbRepotID = new Bunifu.UI.WinForms.BunifuLabel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.Date = new Bunifu.UI.WinForms.BunifuLabel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.redNotica = new Bunifu.UI.WinForms.BunifuShapes();
             this.picUsername = new System.Windows.Forms.PictureBox();
-            this.picSearch = new System.Windows.Forms.PictureBox();
             this.tbUsername = new Bunifu.UI.WinForms.BunifuLabel();
-            this.panel1.SuspendLayout();
+            this.mainpanel = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.panelheader = new System.Windows.Forms.Panel();
+            this.tbDate2 = new System.Windows.Forms.TextBox();
+            this.tbSearch = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.showPanel = new Bunifu.UI.WinForms.BunifuPanel();
+            this.panelslide.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picNotìication)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picNotication)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picUsername)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picSearch)).BeginInit();
+            this.mainpanel.SuspendLayout();
+            this.panelheader.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel1
+            // panelslide
             // 
-            this.panel1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Controls.Add(this.bntLogout);
-            this.panel1.Controls.Add(this.bntSetting);
-            this.panel1.Controls.Add(this.bntCustomer);
-            this.panel1.Controls.Add(this.bntStaff);
-            this.panel1.Controls.Add(this.bntBill);
-            this.panel1.Controls.Add(this.bntProduct);
-            this.panel1.Controls.Add(this.bntContactus);
-            this.panel1.Controls.Add(this.bntOverview);
-            this.panel1.Controls.Add(this.bntHelpCenter);
-            this.panel1.Controls.Add(this.bunifuSeparator1);
-            this.panel1.Controls.Add(this.picLogo);
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(224, 720);
-            this.panel1.TabIndex = 0;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            this.panelslide.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.panelslide.BackColor = System.Drawing.Color.White;
+            this.panelslide.Controls.Add(this.picLogo);
+            this.panelslide.Controls.Add(this.bntLogout);
+            this.panelslide.Controls.Add(this.bntSetting);
+            this.panelslide.Controls.Add(this.bntCustomer);
+            this.panelslide.Controls.Add(this.bntStaff);
+            this.panelslide.Controls.Add(this.bntBill);
+            this.panelslide.Controls.Add(this.bntProduct);
+            this.panelslide.Controls.Add(this.bntContactus);
+            this.panelslide.Controls.Add(this.bntOverview);
+            this.panelslide.Controls.Add(this.bntHelpCenter);
+            this.panelslide.Controls.Add(this.bunifuSeparator1);
+            this.panelslide.Location = new System.Drawing.Point(12, 106);
+            this.panelslide.Name = "panelslide";
+            this.panelslide.Size = new System.Drawing.Size(212, 721);
+            this.panelslide.TabIndex = 0;
+            // 
+            // picLogo
+            // 
+            this.picLogo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.picLogo.Image = ((System.Drawing.Image)(resources.GetObject("picLogo.Image")));
+            this.picLogo.Location = new System.Drawing.Point(22, 12);
+            this.picLogo.Name = "picLogo";
+            this.picLogo.Size = new System.Drawing.Size(168, 123);
+            this.picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picLogo.TabIndex = 0;
+            this.picLogo.TabStop = false;
+            this.picLogo.Click += new System.EventHandler(this.picLogo_Click);
             // 
             // bntLogout
             // 
@@ -174,12 +192,13 @@
             this.bntLogout.OnPressedState.IconLeftImage = null;
             this.bntLogout.OnPressedState.IconRightImage = null;
             this.bntLogout.Size = new System.Drawing.Size(180, 39);
-            this.bntLogout.TabIndex = 18;
+            this.bntLogout.TabIndex = 9;
             this.bntLogout.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bntLogout.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
             this.bntLogout.TextMarginLeft = 0;
             this.bntLogout.TextPadding = new System.Windows.Forms.Padding(0);
             this.bntLogout.UseDefaultRadiusAndThickness = true;
+            this.bntLogout.Click += new System.EventHandler(this.bntLogout_Click);
             // 
             // bntSetting
             // 
@@ -267,13 +286,14 @@
             this.bntSetting.OnPressedState.ForeColor = System.Drawing.Color.Black;
             this.bntSetting.OnPressedState.IconLeftImage = null;
             this.bntSetting.OnPressedState.IconRightImage = null;
-            this.bntSetting.Size = new System.Drawing.Size(180, 50);
-            this.bntSetting.TabIndex = 17;
+            this.bntSetting.Size = new System.Drawing.Size(168, 51);
+            this.bntSetting.TabIndex = 6;
             this.bntSetting.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bntSetting.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
             this.bntSetting.TextMarginLeft = 0;
             this.bntSetting.TextPadding = new System.Windows.Forms.Padding(0);
             this.bntSetting.UseDefaultRadiusAndThickness = true;
+            this.bntSetting.Click += new System.EventHandler(this.bntSetting_Click);
             // 
             // bntCustomer
             // 
@@ -361,13 +381,14 @@
             this.bntCustomer.OnPressedState.ForeColor = System.Drawing.Color.Black;
             this.bntCustomer.OnPressedState.IconLeftImage = null;
             this.bntCustomer.OnPressedState.IconRightImage = null;
-            this.bntCustomer.Size = new System.Drawing.Size(180, 50);
-            this.bntCustomer.TabIndex = 16;
+            this.bntCustomer.Size = new System.Drawing.Size(168, 51);
+            this.bntCustomer.TabIndex = 5;
             this.bntCustomer.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bntCustomer.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
             this.bntCustomer.TextMarginLeft = 0;
             this.bntCustomer.TextPadding = new System.Windows.Forms.Padding(0);
             this.bntCustomer.UseDefaultRadiusAndThickness = true;
+            this.bntCustomer.Click += new System.EventHandler(this.bntCustomer_Click);
             // 
             // bntStaff
             // 
@@ -455,13 +476,14 @@
             this.bntStaff.OnPressedState.ForeColor = System.Drawing.Color.Black;
             this.bntStaff.OnPressedState.IconLeftImage = null;
             this.bntStaff.OnPressedState.IconRightImage = null;
-            this.bntStaff.Size = new System.Drawing.Size(180, 50);
-            this.bntStaff.TabIndex = 15;
+            this.bntStaff.Size = new System.Drawing.Size(168, 51);
+            this.bntStaff.TabIndex = 4;
             this.bntStaff.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bntStaff.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
             this.bntStaff.TextMarginLeft = 0;
             this.bntStaff.TextPadding = new System.Windows.Forms.Padding(0);
             this.bntStaff.UseDefaultRadiusAndThickness = true;
+            this.bntStaff.Click += new System.EventHandler(this.bntStaff_Click);
             // 
             // bntBill
             // 
@@ -549,13 +571,14 @@
             this.bntBill.OnPressedState.ForeColor = System.Drawing.Color.Black;
             this.bntBill.OnPressedState.IconLeftImage = null;
             this.bntBill.OnPressedState.IconRightImage = null;
-            this.bntBill.Size = new System.Drawing.Size(180, 50);
-            this.bntBill.TabIndex = 14;
+            this.bntBill.Size = new System.Drawing.Size(168, 51);
+            this.bntBill.TabIndex = 3;
             this.bntBill.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bntBill.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
             this.bntBill.TextMarginLeft = 0;
             this.bntBill.TextPadding = new System.Windows.Forms.Padding(0);
             this.bntBill.UseDefaultRadiusAndThickness = true;
+            this.bntBill.Click += new System.EventHandler(this.bntBill_Click);
             // 
             // bntProduct
             // 
@@ -643,13 +666,14 @@
             this.bntProduct.OnPressedState.ForeColor = System.Drawing.Color.Black;
             this.bntProduct.OnPressedState.IconLeftImage = null;
             this.bntProduct.OnPressedState.IconRightImage = null;
-            this.bntProduct.Size = new System.Drawing.Size(180, 50);
-            this.bntProduct.TabIndex = 13;
+            this.bntProduct.Size = new System.Drawing.Size(168, 51);
+            this.bntProduct.TabIndex = 2;
             this.bntProduct.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bntProduct.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
             this.bntProduct.TextMarginLeft = 0;
             this.bntProduct.TextPadding = new System.Windows.Forms.Padding(0);
             this.bntProduct.UseDefaultRadiusAndThickness = true;
+            this.bntProduct.Click += new System.EventHandler(this.bntProduct_Click);
             // 
             // bntContactus
             // 
@@ -735,7 +759,7 @@
             this.bntContactus.OnPressedState.IconLeftImage = null;
             this.bntContactus.OnPressedState.IconRightImage = null;
             this.bntContactus.Size = new System.Drawing.Size(180, 39);
-            this.bntContactus.TabIndex = 12;
+            this.bntContactus.TabIndex = 8;
             this.bntContactus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bntContactus.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
             this.bntContactus.TextMarginLeft = 0;
@@ -829,13 +853,14 @@
             this.bntOverview.OnPressedState.ForeColor = System.Drawing.Color.Black;
             this.bntOverview.OnPressedState.IconLeftImage = null;
             this.bntOverview.OnPressedState.IconRightImage = null;
-            this.bntOverview.Size = new System.Drawing.Size(180, 50);
-            this.bntOverview.TabIndex = 11;
+            this.bntOverview.Size = new System.Drawing.Size(168, 51);
+            this.bntOverview.TabIndex = 1;
             this.bntOverview.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bntOverview.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
             this.bntOverview.TextMarginLeft = 0;
             this.bntOverview.TextPadding = new System.Windows.Forms.Padding(0);
             this.bntOverview.UseDefaultRadiusAndThickness = true;
+            this.bntOverview.Click += new System.EventHandler(this.bntOverview_Click_2);
             // 
             // bntHelpCenter
             // 
@@ -921,7 +946,7 @@
             this.bntHelpCenter.OnPressedState.IconLeftImage = null;
             this.bntHelpCenter.OnPressedState.IconRightImage = null;
             this.bntHelpCenter.Size = new System.Drawing.Size(180, 39);
-            this.bntHelpCenter.TabIndex = 10;
+            this.bntHelpCenter.TabIndex = 7;
             this.bntHelpCenter.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bntHelpCenter.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
             this.bntHelpCenter.TextMarginLeft = 0;
@@ -945,31 +970,19 @@
             this.bunifuSeparator1.Size = new System.Drawing.Size(180, 17);
             this.bunifuSeparator1.TabIndex = 1;
             // 
-            // picLogo
+            // picNotication
             // 
-            this.picLogo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.picNotication.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.picLogo.Location = new System.Drawing.Point(54, 37);
-            this.picLogo.Name = "picLogo";
-            this.picLogo.Size = new System.Drawing.Size(109, 59);
-            this.picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picLogo.TabIndex = 0;
-            this.picLogo.TabStop = false;
-            this.picLogo.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // picNotìication
-            // 
-            this.picNotìication.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.picNotìication.Image = ((System.Drawing.Image)(resources.GetObject("picNotìication.Image")));
-            this.picNotìication.Location = new System.Drawing.Point(805, 37);
-            this.picNotìication.Name = "picNotìication";
-            this.picNotìication.Size = new System.Drawing.Size(29, 37);
-            this.picNotìication.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picNotìication.TabIndex = 2;
-            this.picNotìication.TabStop = false;
+            this.picNotication.Image = ((System.Drawing.Image)(resources.GetObject("picNotication.Image")));
+            this.picNotication.Location = new System.Drawing.Point(849, 37);
+            this.picNotication.Name = "picNotication";
+            this.picNotication.Size = new System.Drawing.Size(481, 37);
+            this.picNotication.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picNotication.TabIndex = 2;
+            this.picNotication.TabStop = false;
+            this.picNotication.Click += new System.EventHandler(this.picNotìication_Click);
             // 
             // aeon
             // 
@@ -978,7 +991,7 @@
             this.aeon.Cursor = System.Windows.Forms.Cursors.Default;
             this.aeon.CursorType = System.Windows.Forms.Cursors.Default;
             this.aeon.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold);
-            this.aeon.Location = new System.Drawing.Point(230, 25);
+            this.aeon.Location = new System.Drawing.Point(218, 25);
             this.aeon.Name = "aeon";
             this.aeon.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.aeon.Size = new System.Drawing.Size(164, 37);
@@ -988,92 +1001,19 @@
             this.aeon.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             this.aeon.Click += new System.EventHandler(this.bunifuLabel1_Click_2);
             // 
-            // labelProducer
-            // 
-            this.labelProducer.AllowParentOverrides = false;
-            this.labelProducer.AutoEllipsis = false;
-            this.labelProducer.Cursor = System.Windows.Forms.Cursors.Default;
-            this.labelProducer.CursorType = System.Windows.Forms.Cursors.Default;
-            this.labelProducer.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.labelProducer.ForeColor = System.Drawing.Color.DimGray;
-            this.labelProducer.Location = new System.Drawing.Point(230, 68);
-            this.labelProducer.Name = "labelProducer";
-            this.labelProducer.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.labelProducer.Size = new System.Drawing.Size(78, 20);
-            this.labelProducer.TabIndex = 5;
-            this.labelProducer.Text = "PRODUCER:";
-            this.labelProducer.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.labelProducer.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
             // tbProducer
             // 
             this.tbProducer.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbProducer.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbProducer.ForeColor = System.Drawing.Color.DimGray;
-            this.tbProducer.Location = new System.Drawing.Point(314, 64);
+            this.tbProducer.Location = new System.Drawing.Point(218, 68);
             this.tbProducer.MaxLength = 3000;
             this.tbProducer.Multiline = true;
             this.tbProducer.Name = "tbProducer";
-            this.tbProducer.Size = new System.Drawing.Size(133, 22);
-            this.tbProducer.TabIndex = 19;
+            this.tbProducer.Size = new System.Drawing.Size(274, 22);
+            this.tbProducer.TabIndex = 2;
+            this.tbProducer.Text = "PRODUCER: ";
             this.tbProducer.TextChanged += new System.EventHandler(this.tbProducer_TextChanged);
-            // 
-            // tbRepotID
-            // 
-            this.tbRepotID.AllowParentOverrides = false;
-            this.tbRepotID.AutoEllipsis = false;
-            this.tbRepotID.CursorType = null;
-            this.tbRepotID.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.tbRepotID.ForeColor = System.Drawing.Color.DimGray;
-            this.tbRepotID.Location = new System.Drawing.Point(230, 94);
-            this.tbRepotID.Name = "tbRepotID";
-            this.tbRepotID.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.tbRepotID.Size = new System.Drawing.Size(75, 20);
-            this.tbRepotID.TabIndex = 20;
-            this.tbRepotID.Text = "REPORT ID:";
-            this.tbRepotID.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.tbRepotID.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            this.tbRepotID.Click += new System.EventHandler(this.tbRepotID_Click);
-            // 
-            // textBox1
-            // 
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox1.Location = new System.Drawing.Point(551, 40);
-            this.textBox1.MaxLength = 3000;
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(127, 22);
-            this.textBox1.TabIndex = 21;
-            // 
-            // Date
-            // 
-            this.Date.AllowParentOverrides = false;
-            this.Date.AutoEllipsis = false;
-            this.Date.CursorType = null;
-            this.Date.Font = new System.Drawing.Font("Segoe UI", 10.2F);
-            this.Date.ForeColor = System.Drawing.Color.Black;
-            this.Date.Location = new System.Drawing.Point(500, 38);
-            this.Date.Name = "Date";
-            this.Date.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Date.Size = new System.Drawing.Size(45, 23);
-            this.Date.TabIndex = 22;
-            this.Date.Text = "DATE:";
-            this.Date.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.Date.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // textBox2
-            // 
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox2.Location = new System.Drawing.Point(314, 92);
-            this.textBox2.MaxLength = 3000;
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(133, 22);
-            this.textBox2.TabIndex = 23;
             // 
             // redNotica
             // 
@@ -1083,33 +1023,25 @@
             this.redNotica.BorderThickness = 2;
             this.redNotica.FillColor = System.Drawing.Color.Red;
             this.redNotica.FillShape = true;
-            this.redNotica.Location = new System.Drawing.Point(820, 37);
+            this.redNotica.Location = new System.Drawing.Point(864, 37);
             this.redNotica.Name = "redNotica";
             this.redNotica.Shape = Bunifu.UI.WinForms.BunifuShapes.Shapes.Circle;
             this.redNotica.Sides = 3;
             this.redNotica.Size = new System.Drawing.Size(14, 14);
             this.redNotica.TabIndex = 25;
             this.redNotica.Text = "bunifuShapes1";
+            this.redNotica.ShapeChanged += new System.EventHandler<Bunifu.UI.WinForms.BunifuShapes.ShapeChangedEventArgs>(this.redNotica_ShapeChanged);
             // 
             // picUsername
             // 
             this.picUsername.Image = ((System.Drawing.Image)(resources.GetObject("picUsername.Image")));
-            this.picUsername.Location = new System.Drawing.Point(858, 37);
+            this.picUsername.Location = new System.Drawing.Point(887, 38);
             this.picUsername.Name = "picUsername";
             this.picUsername.Size = new System.Drawing.Size(46, 36);
             this.picUsername.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picUsername.TabIndex = 26;
             this.picUsername.TabStop = false;
-            // 
-            // picSearch
-            // 
-            this.picSearch.Image = ((System.Drawing.Image)(resources.GetObject("picSearch.Image")));
-            this.picSearch.Location = new System.Drawing.Point(748, 37);
-            this.picSearch.Name = "picSearch";
-            this.picSearch.Size = new System.Drawing.Size(27, 37);
-            this.picSearch.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picSearch.TabIndex = 27;
-            this.picSearch.TabStop = false;
+            this.picUsername.Click += new System.EventHandler(this.picUsername_Click);
             // 
             // tbUsername
             // 
@@ -1119,15 +1051,152 @@
             this.tbUsername.Cursor = System.Windows.Forms.Cursors.Default;
             this.tbUsername.CursorType = System.Windows.Forms.Cursors.Default;
             this.tbUsername.Font = new System.Drawing.Font("Georgia", 10.2F);
-            this.tbUsername.Location = new System.Drawing.Point(910, 49);
+            this.tbUsername.Location = new System.Drawing.Point(939, 47);
             this.tbUsername.Name = "tbUsername";
             this.tbUsername.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.tbUsername.Size = new System.Drawing.Size(75, 20);
-            this.tbUsername.TabIndex = 28;
+            this.tbUsername.TabIndex = 1;
             this.tbUsername.Text = "BlaBlaBla";
             this.tbUsername.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.tbUsername.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             this.tbUsername.Click += new System.EventHandler(this.tbUsername_Click);
+            // 
+            // mainpanel
+            // 
+            this.mainpanel.AutoSize = true;
+            this.mainpanel.Controls.Add(this.showPanel);
+            this.mainpanel.Controls.Add(this.panelslide);
+            this.mainpanel.Controls.Add(this.textBox1);
+            this.mainpanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.mainpanel.Location = new System.Drawing.Point(0, 0);
+            this.mainpanel.Name = "mainpanel";
+            this.mainpanel.Size = new System.Drawing.Size(1500, 1102);
+            this.mainpanel.TabIndex = 28;
+            this.mainpanel.Paint += new System.Windows.Forms.PaintEventHandler(this.mainpanel_Paint);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(-19, -19);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 22);
+            this.textBox1.TabIndex = 0;
+            // 
+            // panelheader
+            // 
+            this.panelheader.Controls.Add(this.tbDate2);
+            this.panelheader.Controls.Add(this.tbSearch);
+            this.panelheader.Controls.Add(this.tbProducer);
+            this.panelheader.Controls.Add(this.aeon);
+            this.panelheader.Controls.Add(this.redNotica);
+            this.panelheader.Controls.Add(this.tbUsername);
+            this.panelheader.Controls.Add(this.picUsername);
+            this.panelheader.Controls.Add(this.picNotication);
+            this.panelheader.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelheader.Location = new System.Drawing.Point(0, 0);
+            this.panelheader.Name = "panelheader";
+            this.panelheader.Size = new System.Drawing.Size(1500, 100);
+            this.panelheader.TabIndex = 29;
+            // 
+            // tbDate2
+            // 
+            this.tbDate2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbDate2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbDate2.Location = new System.Drawing.Point(420, 40);
+            this.tbDate2.Multiline = true;
+            this.tbDate2.Name = "tbDate2";
+            this.tbDate2.Size = new System.Drawing.Size(179, 22);
+            this.tbDate2.TabIndex = 1;
+            this.tbDate2.Text = "DATE: ";
+            this.tbDate2.TextChanged += new System.EventHandler(this.tbDate2_TextChanged);
+            // 
+            // tbSearch
+            // 
+            this.tbSearch.AcceptsReturn = false;
+            this.tbSearch.AcceptsTab = false;
+            this.tbSearch.AnimationSpeed = 200;
+            this.tbSearch.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.tbSearch.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.tbSearch.AutoSizeHeight = true;
+            this.tbSearch.BackColor = System.Drawing.Color.Transparent;
+            this.tbSearch.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tbSearch.BackgroundImage")));
+            this.tbSearch.BorderColorActive = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(179)))), ((int)(((byte)(214)))));
+            this.tbSearch.BorderColorDisabled = System.Drawing.Color.Black;
+            this.tbSearch.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(179)))), ((int)(((byte)(214)))));
+            this.tbSearch.BorderColorIdle = System.Drawing.Color.Black;
+            this.tbSearch.BorderRadius = 20;
+            this.tbSearch.BorderThickness = 2;
+            this.tbSearch.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.tbSearch.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tbSearch.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.tbSearch.DefaultText = "";
+            this.tbSearch.FillColor = System.Drawing.Color.White;
+            this.tbSearch.HideSelection = true;
+            this.tbSearch.IconLeft = null;
+            this.tbSearch.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.tbSearch.IconPadding = 8;
+            this.tbSearch.IconRight = ((System.Drawing.Image)(resources.GetObject("tbSearch.IconRight")));
+            this.tbSearch.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.tbSearch.Lines = new string[0];
+            this.tbSearch.Location = new System.Drawing.Point(605, 37);
+            this.tbSearch.MaxLength = 32767;
+            this.tbSearch.MinimumSize = new System.Drawing.Size(1, 1);
+            this.tbSearch.Modified = false;
+            this.tbSearch.Multiline = false;
+            this.tbSearch.Name = "tbSearch";
+            stateProperties1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(179)))), ((int)(((byte)(214)))));
+            stateProperties1.FillColor = System.Drawing.Color.Empty;
+            stateProperties1.ForeColor = System.Drawing.Color.Black;
+            stateProperties1.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.tbSearch.OnActiveState = stateProperties1;
+            stateProperties2.BorderColor = System.Drawing.Color.Black;
+            stateProperties2.FillColor = System.Drawing.Color.White;
+            stateProperties2.ForeColor = System.Drawing.Color.White;
+            stateProperties2.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.tbSearch.OnDisabledState = stateProperties2;
+            stateProperties3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(179)))), ((int)(((byte)(214)))));
+            stateProperties3.FillColor = System.Drawing.Color.Empty;
+            stateProperties3.ForeColor = System.Drawing.Color.Empty;
+            stateProperties3.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.tbSearch.OnHoverState = stateProperties3;
+            stateProperties4.BorderColor = System.Drawing.Color.Black;
+            stateProperties4.FillColor = System.Drawing.Color.White;
+            stateProperties4.ForeColor = System.Drawing.Color.Empty;
+            stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.tbSearch.OnIdleState = stateProperties4;
+            this.tbSearch.Padding = new System.Windows.Forms.Padding(3);
+            this.tbSearch.PasswordChar = '\0';
+            this.tbSearch.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.tbSearch.PlaceholderText = "Search";
+            this.tbSearch.ReadOnly = false;
+            this.tbSearch.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.tbSearch.SelectedText = "";
+            this.tbSearch.SelectionLength = 0;
+            this.tbSearch.SelectionStart = 0;
+            this.tbSearch.ShortcutsEnabled = true;
+            this.tbSearch.Size = new System.Drawing.Size(238, 37);
+            this.tbSearch.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.tbSearch.TabIndex = 1;
+            this.tbSearch.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.tbSearch.TextMarginBottom = 0;
+            this.tbSearch.TextMarginLeft = 3;
+            this.tbSearch.TextMarginTop = 1;
+            this.tbSearch.TextPlaceholder = "Search";
+            this.tbSearch.UseSystemPasswordChar = false;
+            this.tbSearch.WordWrap = true;
+            // 
+            // showPanel
+            // 
+            this.showPanel.BackgroundColor = System.Drawing.Color.Transparent;
+            this.showPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("showPanel.BackgroundImage")));
+            this.showPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.showPanel.BorderColor = System.Drawing.Color.Transparent;
+            this.showPanel.BorderRadius = 3;
+            this.showPanel.BorderThickness = 1;
+            this.showPanel.Location = new System.Drawing.Point(230, 106);
+            this.showPanel.Name = "showPanel";
+            this.showPanel.ShowBorders = true;
+            this.showPanel.Size = new System.Drawing.Size(1258, 984);
+            this.showPanel.TabIndex = 1;
             // 
             // Navigation
             // 
@@ -1135,31 +1204,24 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1048, 720);
-            this.Controls.Add(this.tbUsername);
-            this.Controls.Add(this.picSearch);
-            this.Controls.Add(this.picUsername);
-            this.Controls.Add(this.redNotica);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.Date);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.tbRepotID);
-            this.Controls.Add(this.tbProducer);
-            this.Controls.Add(this.labelProducer);
-            this.Controls.Add(this.aeon);
-            this.Controls.Add(this.picNotìication);
-            this.Controls.Add(this.panel1);
+            this.ClientSize = new System.Drawing.Size(1500, 1102);
+            this.Controls.Add(this.panelheader);
+            this.Controls.Add(this.mainpanel);
             this.ForeColor = System.Drawing.Color.White;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Navigation";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Navigation_FormClosing);
             this.Load += new System.EventHandler(this.Navigation_Load);
-            this.panel1.ResumeLayout(false);
+            this.panelslide.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picNotìication)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picNotication)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picUsername)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picSearch)).EndInit();
+            this.mainpanel.ResumeLayout(false);
+            this.mainpanel.PerformLayout();
+            this.panelheader.ResumeLayout(false);
+            this.panelheader.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1167,10 +1229,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panelslide;
         private Bunifu.UI.WinForms.BunifuSeparator bunifuSeparator1;
         private System.Windows.Forms.PictureBox picLogo;
-        private System.Windows.Forms.PictureBox picNotìication;
+        private System.Windows.Forms.PictureBox picNotication;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton bntHelpCenter;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton bntOverview;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton bntContactus;
@@ -1181,15 +1243,15 @@
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton bntBill;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton bntProduct;
         private Bunifu.UI.WinForms.BunifuLabel aeon;
-        private Bunifu.UI.WinForms.BunifuLabel labelProducer;
         private System.Windows.Forms.TextBox tbProducer;
-        private Bunifu.UI.WinForms.BunifuLabel tbRepotID;
-        private System.Windows.Forms.TextBox textBox1;
-        private Bunifu.UI.WinForms.BunifuLabel Date;
-        private System.Windows.Forms.TextBox textBox2;
         private Bunifu.UI.WinForms.BunifuShapes redNotica;
         private System.Windows.Forms.PictureBox picUsername;
-        private System.Windows.Forms.PictureBox picSearch;
         private Bunifu.UI.WinForms.BunifuLabel tbUsername;
+        private System.Windows.Forms.Panel mainpanel;
+        private System.Windows.Forms.Panel panelheader;
+        private Bunifu.UI.WinForms.BunifuTextBox tbSearch;
+        private System.Windows.Forms.TextBox tbDate2;
+        private System.Windows.Forms.TextBox textBox1;
+        private Bunifu.UI.WinForms.BunifuPanel showPanel;
     }
 }
