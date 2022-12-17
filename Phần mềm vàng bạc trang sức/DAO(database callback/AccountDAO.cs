@@ -42,16 +42,7 @@ namespace Phần_mềm_vàng_bạc_trang_sức.DAO_database_callback
 
             return result > 0;
         }
-        public DataTable GetListAccount()
-        {
-            return DataProvider.Instance.ExecuteQuery("SELECT StaffID, StaffName, Gender, ContactPhone, EmailAddress, Shift FROM dbo.Staff");
-        }
-        public bool DeleteAccount(string name)
-        {
-            string query = string.Format("Delete Staff where StaffName = N'{0}'", name);
-            int result = DataProvider.Instance.ExecuteNonQuery(query);
-
-            return result > 0;
-        }
+        
+       
     }
 }

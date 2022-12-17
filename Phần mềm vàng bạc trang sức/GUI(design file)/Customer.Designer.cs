@@ -31,15 +31,15 @@ namespace Phần_mềm_vàng_bạc_trang_sức.GUI_design_file_
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.CustomerGridView = new Bunifu.UI.WinForms.BunifuDataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.CustomerText = new Bunifu.UI.WinForms.BunifuLabel();
             this.CustomerAddButton = new Phần_mềm_vàng_bạc_trang_sức.Button_Custom.Roundedbutton();
             this.UpdateCustomerButton = new Phần_mềm_vàng_bạc_trang_sức.Button_Custom.Roundedbutton();
             this.DeleteCustomerButton = new Phần_mềm_vàng_bạc_trang_sức.Button_Custom.Roundedbutton();
+            this.CustomerText = new Bunifu.UI.WinForms.BunifuLabel();
             ((System.ComponentModel.ISupportInitialize)(this.CustomerGridView)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -47,22 +47,22 @@ namespace Phần_mềm_vàng_bạc_trang_sức.GUI_design_file_
             // CustomerGridView
             // 
             this.CustomerGridView.AllowCustomTheming = false;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black;
-            this.CustomerGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
+            this.CustomerGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.CustomerGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.CustomerGridView.BackgroundColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.CustomerGridView.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CustomerGridView.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.CustomerGridView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.CustomerGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.DodgerBlue;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.CustomerGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.CustomerGridView.ColumnHeadersHeight = 40;
             this.CustomerGridView.CurrentTheme.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
             this.CustomerGridView.CurrentTheme.AlternatingRowsStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
@@ -83,14 +83,14 @@ namespace Phần_mềm_vàng_bạc_trang_sức.GUI_design_file_
             this.CustomerGridView.CurrentTheme.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
             this.CustomerGridView.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
             this.CustomerGridView.Cursor = System.Windows.Forms.Cursors.IBeam;
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.CustomerGridView.DefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.CustomerGridView.DefaultCellStyle = dataGridViewCellStyle3;
             this.CustomerGridView.EnableHeadersVisualStyles = false;
             this.CustomerGridView.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
             this.CustomerGridView.HeaderBackColor = System.Drawing.Color.DodgerBlue;
@@ -118,25 +118,9 @@ namespace Phần_mềm_vàng_bạc_trang_sức.GUI_design_file_
             this.panel1.Size = new System.Drawing.Size(1234, 100);
             this.panel1.TabIndex = 13;
             // 
-            // CustomerText
-            // 
-            this.CustomerText.AllowParentOverrides = false;
-            this.CustomerText.AutoEllipsis = false;
-            this.CustomerText.Cursor = System.Windows.Forms.Cursors.Default;
-            this.CustomerText.CursorType = System.Windows.Forms.Cursors.Default;
-            this.CustomerText.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CustomerText.Location = new System.Drawing.Point(23, 15);
-            this.CustomerText.Name = "CustomerText";
-            this.CustomerText.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.CustomerText.Size = new System.Drawing.Size(73, 18);
-            this.CustomerText.TabIndex = 11;
-            this.CustomerText.Text = "Customer:";
-            this.CustomerText.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.CustomerText.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
             // CustomerAddButton
             // 
-            this.CustomerAddButton.Angle = 352F;
+            this.CustomerAddButton.Angle = 103F;
             this.CustomerAddButton.BackColor = System.Drawing.Color.MediumSlateBlue;
             this.CustomerAddButton.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
             this.CustomerAddButton.BorderColor = System.Drawing.Color.PaleVioletRed;
@@ -161,7 +145,7 @@ namespace Phần_mềm_vàng_bạc_trang_sức.GUI_design_file_
             // 
             // UpdateCustomerButton
             // 
-            this.UpdateCustomerButton.Angle = 5F;
+            this.UpdateCustomerButton.Angle = 116F;
             this.UpdateCustomerButton.BackColor = System.Drawing.Color.Lavender;
             this.UpdateCustomerButton.BackgroundColor = System.Drawing.Color.Lavender;
             this.UpdateCustomerButton.BorderColor = System.Drawing.Color.PaleVioletRed;
@@ -180,6 +164,7 @@ namespace Phần_mềm_vàng_bạc_trang_sức.GUI_design_file_
             this.UpdateCustomerButton.Text = "UPDATE";
             this.UpdateCustomerButton.TextColor = System.Drawing.Color.Black;
             this.UpdateCustomerButton.UseVisualStyleBackColor = false;
+            this.UpdateCustomerButton.Click += new System.EventHandler(this.UpdateCustomerButton_Click);
             this.UpdateCustomerButton.MouseEnter += new System.EventHandler(this.UpdateCustomerButton_MouseEnter);
             this.UpdateCustomerButton.MouseLeave += new System.EventHandler(this.UpdateCustomerButton_MouseLeave);
             // 
@@ -188,7 +173,7 @@ namespace Phần_mềm_vàng_bạc_trang_sức.GUI_design_file_
             this.DeleteCustomerButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.DeleteCustomerButton.Angle = 301F;
+            this.DeleteCustomerButton.Angle = 52F;
             this.DeleteCustomerButton.BackColor = System.Drawing.Color.MediumSlateBlue;
             this.DeleteCustomerButton.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
             this.DeleteCustomerButton.BorderColor = System.Drawing.Color.PaleVioletRed;
@@ -210,6 +195,22 @@ namespace Phần_mềm_vàng_bạc_trang_sức.GUI_design_file_
             this.DeleteCustomerButton.Click += new System.EventHandler(this.roundedbutton1_Click_1);
             this.DeleteCustomerButton.MouseEnter += new System.EventHandler(this.roundedbutton1_MouseEnter_1);
             this.DeleteCustomerButton.MouseLeave += new System.EventHandler(this.DeleteCustomerButton_MouseLeave);
+            // 
+            // CustomerText
+            // 
+            this.CustomerText.AllowParentOverrides = false;
+            this.CustomerText.AutoEllipsis = false;
+            this.CustomerText.Cursor = System.Windows.Forms.Cursors.Default;
+            this.CustomerText.CursorType = System.Windows.Forms.Cursors.Default;
+            this.CustomerText.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CustomerText.Location = new System.Drawing.Point(23, 15);
+            this.CustomerText.Name = "CustomerText";
+            this.CustomerText.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.CustomerText.Size = new System.Drawing.Size(73, 18);
+            this.CustomerText.TabIndex = 11;
+            this.CustomerText.Text = "Customer:";
+            this.CustomerText.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.CustomerText.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
             // CustomerForm
             // 

@@ -35,7 +35,7 @@
             this.bunifuLabel2 = new Bunifu.UI.WinForms.BunifuLabel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.StaffGridView = new Bunifu.UI.WinForms.BunifuDataGridView();
-            this.roundedbutton3 = new Phần_mềm_vàng_bạc_trang_sức.Button_Custom.Roundedbutton();
+            this.AddStaffButton = new Phần_mềm_vàng_bạc_trang_sức.Button_Custom.Roundedbutton();
             this.roundedbutton2 = new Phần_mềm_vàng_bạc_trang_sức.Button_Custom.Roundedbutton();
             this.roundedbutton1 = new Phần_mềm_vàng_bạc_trang_sức.Button_Custom.Roundedbutton();
             this.panel1.SuspendLayout();
@@ -76,7 +76,7 @@
             // panel1
             // 
             this.panel1.AutoSize = true;
-            this.panel1.Controls.Add(this.roundedbutton3);
+            this.panel1.Controls.Add(this.AddStaffButton);
             this.panel1.Controls.Add(this.roundedbutton2);
             this.panel1.Controls.Add(this.roundedbutton1);
             this.panel1.Location = new System.Drawing.Point(12, 541);
@@ -147,35 +147,37 @@
             this.StaffGridView.TabIndex = 5;
             this.StaffGridView.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
             this.StaffGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.bunifuDataGridView1_CellContentClick);
+            this.StaffGridView.EditingControlShowing += new System.Windows.Forms.DataGridViewEditingControlShowingEventHandler(this.StaffGridView_EditingControlShowing);
             this.StaffGridView.UserDeletingRow += new System.Windows.Forms.DataGridViewRowCancelEventHandler(this.StaffGridView_UserDeletingRow);
             // 
-            // roundedbutton3
+            // AddStaffButton
             // 
-            this.roundedbutton3.Angle = 111F;
-            this.roundedbutton3.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.roundedbutton3.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
-            this.roundedbutton3.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.roundedbutton3.BorderRadius = 17;
-            this.roundedbutton3.BorderSize = 0;
-            this.roundedbutton3.Color0 = System.Drawing.Color.Aquamarine;
-            this.roundedbutton3.Color1 = System.Drawing.Color.Aqua;
-            this.roundedbutton3.FlatAppearance.BorderSize = 0;
-            this.roundedbutton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.roundedbutton3.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
-            this.roundedbutton3.ForeColor = System.Drawing.Color.Black;
-            this.roundedbutton3.Location = new System.Drawing.Point(3, 27);
-            this.roundedbutton3.Name = "roundedbutton3";
-            this.roundedbutton3.Size = new System.Drawing.Size(175, 47);
-            this.roundedbutton3.TabIndex = 2;
-            this.roundedbutton3.Text = "ADD";
-            this.roundedbutton3.TextColor = System.Drawing.Color.Black;
-            this.roundedbutton3.UseVisualStyleBackColor = false;
-            this.roundedbutton3.MouseEnter += new System.EventHandler(this.roundedbutton3_MouseEnter);
-            this.roundedbutton3.MouseLeave += new System.EventHandler(this.roundedbutton3_MouseLeave);
+            this.AddStaffButton.Angle = 317F;
+            this.AddStaffButton.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.AddStaffButton.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
+            this.AddStaffButton.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.AddStaffButton.BorderRadius = 17;
+            this.AddStaffButton.BorderSize = 0;
+            this.AddStaffButton.Color0 = System.Drawing.Color.Aquamarine;
+            this.AddStaffButton.Color1 = System.Drawing.Color.Aqua;
+            this.AddStaffButton.FlatAppearance.BorderSize = 0;
+            this.AddStaffButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AddStaffButton.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
+            this.AddStaffButton.ForeColor = System.Drawing.Color.Black;
+            this.AddStaffButton.Location = new System.Drawing.Point(3, 27);
+            this.AddStaffButton.Name = "AddStaffButton";
+            this.AddStaffButton.Size = new System.Drawing.Size(175, 47);
+            this.AddStaffButton.TabIndex = 2;
+            this.AddStaffButton.Text = "ADD";
+            this.AddStaffButton.TextColor = System.Drawing.Color.Black;
+            this.AddStaffButton.UseVisualStyleBackColor = false;
+            this.AddStaffButton.Click += new System.EventHandler(this.AddStaffButton_Click);
+            this.AddStaffButton.MouseEnter += new System.EventHandler(this.roundedbutton3_MouseEnter);
+            this.AddStaffButton.MouseLeave += new System.EventHandler(this.roundedbutton3_MouseLeave);
             // 
             // roundedbutton2
             // 
-            this.roundedbutton2.Angle = 220F;
+            this.roundedbutton2.Angle = 65F;
             this.roundedbutton2.BackColor = System.Drawing.Color.Lavender;
             this.roundedbutton2.BackgroundColor = System.Drawing.Color.Lavender;
             this.roundedbutton2.BorderColor = System.Drawing.Color.PaleVioletRed;
@@ -203,7 +205,7 @@
             this.roundedbutton1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.roundedbutton1.Angle = 121F;
+            this.roundedbutton1.Angle = 325F;
             this.roundedbutton1.BackColor = System.Drawing.Color.MediumSlateBlue;
             this.roundedbutton1.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
             this.roundedbutton1.BorderColor = System.Drawing.Color.PaleVioletRed;
@@ -222,6 +224,7 @@
             this.roundedbutton1.Text = "DELETE";
             this.roundedbutton1.TextColor = System.Drawing.Color.Black;
             this.roundedbutton1.UseVisualStyleBackColor = false;
+            this.roundedbutton1.Click += new System.EventHandler(this.roundedbutton1_Click);
             this.roundedbutton1.MouseEnter += new System.EventHandler(this.roundedbutton1_MouseEnter);
             this.roundedbutton1.MouseLeave += new System.EventHandler(this.roundedbutton1_MouseLeave);
             // 
@@ -250,7 +253,7 @@
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel1;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel2;
         private System.Windows.Forms.Panel panel1;
-        private Button_Custom.Roundedbutton roundedbutton3;
+        private Button_Custom.Roundedbutton AddStaffButton;
         private Button_Custom.Roundedbutton roundedbutton2;
         private Button_Custom.Roundedbutton roundedbutton1;
         private Bunifu.UI.WinForms.BunifuDataGridView StaffGridView;
