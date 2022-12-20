@@ -74,7 +74,7 @@ namespace Phần_mềm_vàng_bạc_trang_sức
 
         private void bntBill_Click(object sender, EventArgs e)//bntBill
         {
-            loadform(new Bill());
+            loadform(new FrmBill());
         }
 
         private void bntStaff_Click(object sender, EventArgs e)//bntStaff
@@ -89,7 +89,7 @@ namespace Phần_mềm_vàng_bạc_trang_sức
 
         private void bntSetting_Click(object sender, EventArgs e)//bntSetting
         {
-
+            loadform(new FrmItemService());
         }
 
         private void bntLogout_Click(object sender, EventArgs e)//bntLogout
@@ -140,6 +140,11 @@ namespace Phần_mềm_vàng_bạc_trang_sức
         }
 
         private void tbDate2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void showPanel_Click(object sender, EventArgs e)
         {
 
         }

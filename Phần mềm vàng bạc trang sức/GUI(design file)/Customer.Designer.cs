@@ -120,7 +120,7 @@ namespace Phần_mềm_vàng_bạc_trang_sức.GUI_design_file_
             // 
             // CustomerAddButton
             // 
-            this.CustomerAddButton.Angle = 103F;
+            this.CustomerAddButton.Angle = 158F;
             this.CustomerAddButton.BackColor = System.Drawing.Color.MediumSlateBlue;
             this.CustomerAddButton.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
             this.CustomerAddButton.BorderColor = System.Drawing.Color.PaleVioletRed;
@@ -145,7 +145,7 @@ namespace Phần_mềm_vàng_bạc_trang_sức.GUI_design_file_
             // 
             // UpdateCustomerButton
             // 
-            this.UpdateCustomerButton.Angle = 116F;
+            this.UpdateCustomerButton.Angle = 170F;
             this.UpdateCustomerButton.BackColor = System.Drawing.Color.Lavender;
             this.UpdateCustomerButton.BackgroundColor = System.Drawing.Color.Lavender;
             this.UpdateCustomerButton.BorderColor = System.Drawing.Color.PaleVioletRed;
@@ -173,7 +173,7 @@ namespace Phần_mềm_vàng_bạc_trang_sức.GUI_design_file_
             this.DeleteCustomerButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.DeleteCustomerButton.Angle = 52F;
+            this.DeleteCustomerButton.Angle = 106F;
             this.DeleteCustomerButton.BackColor = System.Drawing.Color.MediumSlateBlue;
             this.DeleteCustomerButton.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
             this.DeleteCustomerButton.BorderColor = System.Drawing.Color.PaleVioletRed;

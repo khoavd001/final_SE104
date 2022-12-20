@@ -19,13 +19,14 @@ namespace Phần_mềm_vàng_bạc_trang_sức.GUI_design_file_
         {
             InitializeComponent();
             LoadCustomer();
+            LoadChartFirst();
         }
         void LoadCustomer()
         {
             
             TotalMoneyTxt.Text = OveralDAO.Instance.LoadTotalProduct();
             SoldTxt.Text = OveralDAO.Instance.LoadSoldProduct();
-            LoadChartFirst();
+            
             foreach (DataGridViewColumn col in this.TopProductGridView.Columns)
 
             {
@@ -67,7 +68,15 @@ namespace Phần_mềm_vàng_bạc_trang_sức.GUI_design_file_
 
         private void LastmonthButton_Click(object sender, EventArgs e)
         {
+            
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
             LoadChartFirst();
+            TotalSoldChart.DataSource = OveralDAO.Instance.LoadSoldChart("1890", "2023");
+            TotalSoldChart.Series["Sold"].XValueMember = "Month";
+            TotalSoldChart.Series["Sold"].YValueMembers = "Total";
         }
     }
 }

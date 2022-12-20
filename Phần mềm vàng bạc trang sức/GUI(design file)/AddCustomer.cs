@@ -99,5 +99,10 @@ namespace Phần_mềm_vàng_bạc_trang_sức.GUI_design_file_
         {
 
         }
+
+        private void AddCustomer_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

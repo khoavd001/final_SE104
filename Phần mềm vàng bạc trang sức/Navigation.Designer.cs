@@ -61,11 +61,11 @@
             this.picUsername = new System.Windows.Forms.PictureBox();
             this.tbUsername = new Bunifu.UI.WinForms.BunifuLabel();
             this.mainpanel = new System.Windows.Forms.Panel();
+            this.showPanel = new Bunifu.UI.WinForms.BunifuPanel();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.panelheader = new System.Windows.Forms.Panel();
             this.tbDate2 = new System.Windows.Forms.TextBox();
             this.tbSearch = new Bunifu.UI.WinForms.BunifuTextBox();
-            this.showPanel = new Bunifu.UI.WinForms.BunifuPanel();
             this.panelslide.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picNotication)).BeginInit();
@@ -217,7 +217,7 @@
             this.bntSetting.BackColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(183)))));
             this.bntSetting.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bntSetting.BackgroundImage")));
             this.bntSetting.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.bntSetting.ButtonText = "Setting";
+            this.bntSetting.ButtonText = "Service";
             this.bntSetting.ButtonTextMarginLeft = 0;
             this.bntSetting.ColorContrastOnClick = 45;
             this.bntSetting.ColorContrastOnHover = 45;
@@ -1074,6 +1074,21 @@
             this.mainpanel.TabIndex = 28;
             this.mainpanel.Paint += new System.Windows.Forms.PaintEventHandler(this.mainpanel_Paint);
             // 
+            // showPanel
+            // 
+            this.showPanel.BackgroundColor = System.Drawing.Color.Transparent;
+            this.showPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("showPanel.BackgroundImage")));
+            this.showPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.showPanel.BorderColor = System.Drawing.Color.Transparent;
+            this.showPanel.BorderRadius = 3;
+            this.showPanel.BorderThickness = 1;
+            this.showPanel.Location = new System.Drawing.Point(230, 106);
+            this.showPanel.Name = "showPanel";
+            this.showPanel.ShowBorders = true;
+            this.showPanel.Size = new System.Drawing.Size(1258, 984);
+            this.showPanel.TabIndex = 1;
+            this.showPanel.Click += new System.EventHandler(this.showPanel_Click);
+            // 
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(-19, -19);
@@ -1183,20 +1198,6 @@
             this.tbSearch.TextPlaceholder = "Search";
             this.tbSearch.UseSystemPasswordChar = false;
             this.tbSearch.WordWrap = true;
-            // 
-            // showPanel
-            // 
-            this.showPanel.BackgroundColor = System.Drawing.Color.Transparent;
-            this.showPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("showPanel.BackgroundImage")));
-            this.showPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.showPanel.BorderColor = System.Drawing.Color.Transparent;
-            this.showPanel.BorderRadius = 3;
-            this.showPanel.BorderThickness = 1;
-            this.showPanel.Location = new System.Drawing.Point(230, 106);
-            this.showPanel.Name = "showPanel";
-            this.showPanel.ShowBorders = true;
-            this.showPanel.Size = new System.Drawing.Size(1258, 984);
-            this.showPanel.TabIndex = 1;
             // 
             // Navigation
             // 
